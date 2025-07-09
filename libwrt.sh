@@ -4,3 +4,5 @@ chmod +x package/luci-app-athena-led/root/etc/init.d/athena_led package/luci-app
 
 git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+git clone https://github.com/gngpp/luci-app-design-config.git package/luci-app-design-config
+git clone https://github.com/gngpp/luci-theme-design.git  package/luci-theme-design
