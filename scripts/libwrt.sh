@@ -16,5 +16,3 @@ git clone --depth=1 https://github.com/sirpdboy/luci-app-partexp.git package/luc
 git clone --depth=1 https://github.com/sbwml/luci-app-openlist.git package/openlist
 git clone --depth=1 https://github.com/vernesong/OpenClash.git package/openclash
 git clone --depth=1 https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-git clone --depth=1 https://github.com/gngpp/luci-app-design-config.git package/luci-app-design-config
-git clone --depth=1 https://github.com/gngpp/luci-theme-design.git  package/luci-theme-design
