@@ -12,7 +12,9 @@ rm -rf package/emortal/luci-app-athena-led
 git clone --depth=1 https://github.com/NONGFAH/luci-app-athena-led package/luci-app-athena-led
 chmod +x package/luci-app-athena-led/root/etc/init.d/athena_led package/luci-app-athena-led/root/usr/sbin/athena-led
 
-git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-git clone https://github.com/gngpp/luci-app-design-config.git package/luci-app-design-config
-git clone https://github.com/gngpp/luci-theme-design.git  package/luci-theme-design
+git clone --depth=1 https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
+git clone --depth=1 https://github.com/sbwml/luci-app-openlist.git package/openlist
+git clone --depth=1 https://github.com/vernesong/OpenClash.git package/openclash
+git clone --depth=1 https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+git clone --depth=1 https://github.com/gngpp/luci-app-design-config.git package/luci-app-design-config
+git clone --depth=1 https://github.com/gngpp/luci-theme-design.git  package/luci-theme-design
