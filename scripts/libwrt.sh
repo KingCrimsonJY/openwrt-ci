@@ -4,8 +4,6 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 
 # 移除要替换的包
 rm -rf feeds/packages/net/open-app-filter
-rm -rf feeds/packages/net/openlist
-rm -rf feeds/luci/applications/luci-app-openlist
 rm -rf feeds/packages/net/openlist2
 rm -rf feeds/luci/applications/luci-app-openlist2
 rm -rf feeds/luci/applications/luci-app-openclash
