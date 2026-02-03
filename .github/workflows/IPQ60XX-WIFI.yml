@@ -1,4 +1,4 @@
-name: IPQ60XX-6.12-WIFI
+name: IPQ60XX-WIFI
 
 on:
   repository_dispatch:
@@ -13,13 +13,13 @@ on:
 env:
   REPO_URL: https://github.com/LiBwrt/openwrt-6.x.git
   REPO_BRANCH: main-nss
-  CONFIG_FILE: configs/ipq60xx-6.12-wifi.config
+  CONFIG_FILE: configs/ipq60xx-wifi.config
   DIY_SCRIPT: libwrt.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: true
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: IPQ60XX-6.12-WIFI
+  FIRMWARE_TAG: IPQ60XX-WIFI
   TZ: Asia/Shanghai
 
 jobs:
@@ -176,7 +176,7 @@ jobs:
           - 💻 这是 ${{ env.FIRMWARE_TAG }} 平台使用的 OpenWrt 固件
           - ⚽ 固件源码: ${{ env.REPO_URL }}
           - 💝 源码分支: ${{ env.REPO_BRANCH }}
-          - 🌐 默认地址: 192.168.1.1
+          - 🌐 默认地址: 192.168.2.1
           - 🔑 默认密码: password
           ### 🧊 固件版本
           - 固件内核版本：${{ env.VERSION_KERNEL }}
