@@ -15,7 +15,7 @@
 点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/KingCrimsonJY/openwrt-ci/releases) 即可跳转到该设备固件下载页面
 | 固件平台 | 固件编译状态 | 配置文件 | 固件下载 |
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| [![](https://img.shields.io/badge/IPQ60XX-6.12-WIFI-32C955.svg?logo=openwrt)](https://github.com/KingCrimsonJY/openwrt-ci/blob/main/.github/workflows/IPQ60XX-6.12-WIFI.yml) | [![](https://github.com/KingCrimsonJY/openwrt-ci/actions/workflows/IPQ60XX-6.12-WIFI.yml/badge.svg)](https://github.com/KingCrimsonJY/openwrt-ci/actions/workflows/IPQ60XX-6.12-WIFI.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/KingCrimsonJY/openwrt-ci/blob/main/configs/ipq60xx-6.12-wifi.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/KingCrimsonJY/openwrt-ci/releases) |
+| [![](https://img.shields.io/badge/IPQ60XX-WIFI-32C955.svg?logo=openwrt)](https://github.com/KingCrimsonJY/openwrt-ci/blob/main/.github/workflows/IPQ60XX-WIFI.yml) | [![](https://github.com/KingCrimsonJY/openwrt-ci/actions/workflows/IPQ60XX-WIFI.yml/badge.svg)](https://github.com/KingCrimsonJY/openwrt-ci/actions/workflows/IPQ60XX-WIFI.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/KingCrimsonJY/openwrt-ci/blob/main/configs/ipq60xx-wifi.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/KingCrimsonJY/openwrt-ci/releases) |
 
 ## 其他功能 [![](https://img.shields.io/badge/-其他功能-FFFFFF.svg)](#其他功能-)
 本仓库还包含以下独立功能：
