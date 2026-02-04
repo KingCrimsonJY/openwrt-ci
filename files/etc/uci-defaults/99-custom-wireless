@@ -1,0 +1,36 @@
+#!/bin/sh
+# 这个脚本在首次启动时运行，用于配置无线网络
+# 脚本执行成功后会被自动删除
+
+# 等待无线配置生成
+sleep 2
+
+# ==========================================
+# 配置 5GHz WiFi (radio0)
+# ==========================================
+uci set wireless.radio0.country='CN'
+uci set wireless.radio0.disabled='0'
+
+uci set wireless.default_radio0.ssid='Libwrt-5.0'
+uci set wireless.default_radio0.encryption='psk2'
+uci set wireless.default_radio0.key='12345678'
+uci set wireless.default_radio0.disabled='0'
+
+# ==========================================
+# 配置 2.4GHz WiFi (radio1)
+# ==========================================
+uci set wireless.radio1.country='CN'
+uci set wireless.radio1.disabled='0'
+
+uci set wireless.default_radio1.ssid='Libwrt-2.4'
+uci set wireless.default_radio1.encryption='psk2'
+uci set wireless.default_radio1.key='12345678'
+uci set wireless.default_radio1.disabled='0'
+
+# 提交无线配置
+uci commit wireless
+
+# 重启无线（在首次启动时可能需要）
+wifi reload 2>/dev/null || true
+
+exit 0
